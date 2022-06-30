@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///C:/Users/julio/Desktop/HTML/Html/Index.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=widht,
+        initial-scale=1.0">
+
+<title> Form de Registro com validações   JS</title>
+<link rel="stylesheet" href="./Login_files/font-awesome.css">
+<link rel="stylesheet" href="./Login_files/Styles.CSS">
+
+    </head>
+    <body>
+        <div id="main-container">
+            <h1> Cadastre-se para acessar o sistema</h1>
+            <form id="registrar-form">
+                <div class="full box">
+                    <label for="E-mail">E-mail</E-mail> </label>
+                    <input type="e-mail" name="email" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="half-box">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="Name" placeholder="digite seu Nome">
+                    <div class="half-box">
+                        <label for="lastname">sobrenome</label>
+                        <input type="text"name="sobrenome" id="lastname" placeholder="digite seu Sobrenome">
+                        <div class="half-box">
+                            <label for="password">senha</label>
+                            <input type="password"name="password" id="password" placeholder="digite sua senha">
+                            <div class="half-box">
+                                <label for="passconfirmation">senha</label>
+                                <input type="password"name="passconfirmation" id="passconfirmation" placeholder="confirme sua senha">
+                                <div class="full-box">
+                                    <input type="checkbox"name="agreement" id="agreement">
+                                    <label for="agreement" id="agreement-label"> Eu li e aceito os <a href="#"></a>termos de uso</label><label for=""></label>
+                                    <div class="full-box">
+                                        <input type="submit"id="btn-submit" value="Registrar">
+                              
+                    
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="js/script.js"></script>
+
+
+    
+
+        
+        <section>
+            <!-- Login e Senha -->
+
+        </section>
+        <section>
+        <!-- Tags e Filtros  -->
+        </section>
+        <section>
+            <article></article> <!-- x N -->
+            <footer>
+                <!-- Componentes rodapé -->
+            </footer>
+        </section>
+
+        </main>
+        
+        
+
+
+        </body></html>
